@@ -1,0 +1,70 @@
+.Header {
+    display: grid;
+    background-color: rgb(0,0,0);
+    grid-template-areas: " nav";
+    padding: 10px;
+    justify-items: end
+}
+
+.Nav {
+    grid-area: nav;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 100px;
+    
+}
+.Nav button
+{
+    font-size: 20px;
+    background-color: red;
+    border-radius: 12px;
+    color: white;
+}
+
+.Nav a
+{
+    text-decoration: none;
+    font-weight: bold;
+    color:white;
+}
+.Nav a:hover
+{
+    transform: scale(1.1);
+}
+.icon
+{
+    display: none;
+}
+
+
+
+@media (max-width:700px){
+
+    .Header
+    {
+        display: grid;
+        grid-template-areas: ".   burger"  
+                             "nav .";
+        padding: 10px;
+        
+    }
+    
+   .Nav
+   {
+       grid-area: nav ;
+       display: grid;
+       grid-template-columns: none;
+       grid-template-rows: repeat(4,auto);
+       grid-row-gap:20px;
+            
+   }
+   
+   .icon
+   {
+       grid-area:burger;
+       display: grid;
+       color: white;
+       
+   }
+ 
+
+}
