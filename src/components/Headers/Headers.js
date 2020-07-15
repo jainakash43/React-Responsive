@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./Header.css";
+import './Header.css';
 export default function Headers()
 {   
    const [isNavVisible, setIsNavVisible]=useState(true);
@@ -47,8 +47,8 @@ export default function Headers()
                )
             }
             
-            <a  href="#" class="icon" onClick={toggleNav}>
-               <i class="fa fa-bars"></i>
+            <a  href="#" className="icon" onClick={toggleNav}>
+               <i className="fa fa-bars"></i>
             </a>
           </header>
      );
