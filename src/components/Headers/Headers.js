@@ -42,7 +42,7 @@ export default function Headers()
                 <a href="/">Home</a>
                 <a href="/">Articles</a>
                 <a href="/">About</a>
-                <button>Logout</button> 
+                <a href="/">Contact Me</a>
                </nav>
                )
             }

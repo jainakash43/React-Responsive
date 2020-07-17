@@ -1,0 +1,104 @@
+.Home_Container
+{
+    background-color: rgb(104,104,104);
+    height: 650px;
+    border:solid;
+    
+}
+
+.Home
+{
+    
+    width: 90%;
+    margin-left: 6%;
+    margin-top: 3%;
+    background-color:whitesmoke;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+.Home p
+{
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+}
+
+.Home_1
+{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.Home_1 p
+{
+    font-weight: normal;
+    font-size: large;
+    text-align: left;
+    padding-left: 20px;
+}
+.Home_1_1
+{
+    height: 450px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+.Home_1_1 div
+{
+    height: 400px ;
+    width: 360px;
+    background: url('IMG_234.jpg') no-repeat;
+    align-content: center;
+}
+.Home_1_1 p
+{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+span
+{
+    font-weight: bold;
+}
+
+
+@media (max-width:700px)
+{
+  
+    .Home_Container
+    {
+        height: 90%;
+    }
+    .Home
+    {
+        margin-bottom: 2%;
+    }
+    .Home_1
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .Home_1_1 div
+    {
+    height: 400px ;
+    width: 360px;
+    background: url('IMG_234.jpg') no-repeat;
+    margin-left: 12%;
+    }
+
+
+
+
+
+
+
+
+
+}

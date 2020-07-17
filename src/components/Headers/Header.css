@@ -12,13 +12,6 @@
     grid-template-columns: 200px 200px 200px 100px;
     
 }
-.Nav button
-{
-    font-size: 20px;
-    background-color: red;
-    border-radius: 12px;
-    color: white;
-}
 
 .Nav a
 {
