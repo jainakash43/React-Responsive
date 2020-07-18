@@ -1,5 +1,9 @@
 import React, { useState, useEffect } from "react";
 import './Header.css';
+import {Link} from 'react-router-dom';
+
+
+
 export default function Headers()
 {   
    const [isNavVisible, setIsNavVisible]=useState(true);
@@ -39,10 +43,10 @@ export default function Headers()
            { (!isSmallScreen || isNavVisible) &&
                (  
                <nav className="Nav">
-                <a href="/">Home</a>
-                <a href="/">Articles</a>
-                <a href="/">About</a>
-                <a href="/">Contact Me</a>
+                <Link to='/'>Home</Link>
+                <Link to="/articles">Articles</Link>
+                <Link to="/about">About</Link>
+                <Link to="/contact">Contact Me</Link>
                </nav>
                )
             }

@@ -1,7 +1,9 @@
 .Home_Container
 {
+    background: url('/img_123.jpg') no-repeat;
     background-color: rgb(104,104,104);
-    height: 650px;
+    background-size: 100% 700px;
+    height: 700px;
     border:solid;
     
 }
@@ -52,7 +54,7 @@
 {
     height: 400px ;
     width: 360px;
-    background: url('IMG_234.jpg') no-repeat;
+    background: url('/IMG_234.jpg') no-repeat; 
     align-content: center;
 }
 .Home_1_1 p
@@ -89,7 +91,7 @@ span
     {
     height: 400px ;
     width: 360px;
-    background: url('IMG_234.jpg') no-repeat;
+    background: url('/IMG_234.jpg') no-repeat;
     margin-left: 12%;
     }
 

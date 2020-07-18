@@ -27,7 +27,7 @@ class Home extends Component {
                   
                              <p>
 
-                              Hi Guys!!  My name is <span>Akash Jain</span>. My currently working as a software engineer in TCS, Bangalore. Currently I am 
+                              Hi Guys!!  My name is <span>Akash Jain</span>. I am  currently working as a software engineer in TCS, Bangalore. Currently I am 
                               in front-end engineering. For that purpose , I have created my personal portfolio website.<br/>
                     
                               The technologies that i have used in creating this website is <span>HTML,CSS,JAVASCRIPT,REACTJS,SPRING-BOOT</span><br/>

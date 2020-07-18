@@ -21,55 +21,50 @@ class Contact extends Component {
     render() {
         
         return (
-            <div className="container">
-            <p className="paragraph">
-            I'm really glad you decided to communicate with me through my portal. It's a pleasure to meet new people who have some common interests, sparks really interesting conversions leading to valuable knowledge sharing.
-               <br/><br/>
-               Please drop in your message below along with your details. Do share any social networking link so that we can stay in touch.
+            <div className="Contact_Container">
+                  
+                   <div className="centerdiv">
+                   </div>
 
-            </p>
-            
-            <form className="Form">
-               
-            
-               <label id="lb">Contact Me</label>
-            
 
-            
-               
-               <label className="label">Hi there, Please enter your name</label>
-               
+                  <form className="Contact">
 
-               <div className="input_div">
-               <i class="fa fa-user"></i>    
-               <input className="input" type="text" onChange={this.handleChange}  name="Name" placeholder="Enter your name"  value={this.state.Name} required />
-               </div>  
+                        <p>Contact Me</p>
+                        
+                        <label>Your Good Name</label>
+                        
+                        <div className="inputContainer">
+                           <i className="fa fa-user " id="icon" > </i>
+                           <input type="text" placeholder="Name"/>
+                        </div>
 
-               
-               <label className="label">Please Enter your Contact Number</label>
-              
-               <div className="input_div"> 
-               <i class="fa fa-phone "></i>   
-               <input className="input" type="text" onChange={this.handleChange}  name="Contact" placeholder="Enter your contact" required />     
-               </div>
+                        <label>Your Email Address</label>
 
-               <label className="label">Enter your Email</label>
+                        <div className="inputContainer">
+                           <i className="fa fa-envelope " id="icon"> </i>
+                           <input type="text" placeholder="Your email address"/>
+                        </div>
 
-               <div className="input_div">
-               <i class="fa fa-envelope "></i>
-               <input className="input" type="text" onChange={this.handleChange} name="Email" placeholder="Enter your Email" required />
-               </div>
+                        <label>Your Website or other online presence</label>  
 
-               <label className="label">Your message</label>
+                        <div className="inputContainer">
+                           <i className="fa fa-home " id="icon"> </i>
+                           <input type="text" placeholder="Your Website or blog"/>
+                        </div> 
 
-               <textarea className="textarea" rows="8" onChange={this.handleChange} name="Message"  placeholder="Your Message"></textarea>
+                        <label>Message</label> 
 
-               <button className="input_button" onClick={this.handleSubmit}>Submit</button>
-               
-              
-            
-            </form>
-             
+                        
+                       <textarea placeholder="Message"  id="Message" rows="4" ></textarea>
+
+                       <button >Submit</button>
+                        
+                                      
+                   </form>                 
+
+                 
+
+     
             </div>
         );
     }
